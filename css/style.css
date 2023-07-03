@@ -82,3 +82,9 @@ button:hover{
     color: rgb(53, 173, 53);
     transition: all 0.3s ease-in-out;
 }
+.card.active .text{
+    height: auto;
+}
+.card.active .text::before{
+    visibility: hidden;
+}
