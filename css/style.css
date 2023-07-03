@@ -62,4 +62,23 @@ body{
     width: 40px;
     background-color: rgb(97, 53, 201);
     bottom: 04px;
+    border-radius: 100px;
+}
+.text p{
+    color: #b7b7b7;
+}
+button{
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    background: rgb(53, 173, 53);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+} 
+button:hover{
+    background: transparent;
+    color: rgb(53, 173, 53);
+    transition: all 0.3s ease-in-out;
 }
