@@ -15,6 +15,7 @@ body{
 }
 .icon img{
     width: 250px;
+    margin-bottom: 10px;
 }
 .card{
     display: flex;
@@ -34,4 +35,8 @@ body{
     border: 20px solid transparent;
     border-right: 20px solid rgb(84, 63, 133);
     border-top: 20px solid rgb(84, 63, 133);
+}
+.text{
+    height: 215px;
+    overflow: hidden;
 }
