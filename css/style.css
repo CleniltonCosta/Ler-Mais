@@ -49,3 +49,17 @@ body{
     height: 100px;
     background: linear-gradient(transparent, #3f3f3f);
 }
+.text h3{
+    font-size: 25px;
+    text-align: center; 
+    margin-bottom: 10px;
+    position: relative;
+}
+.text h3::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(97, 53, 201);
+    bottom: 04px;
+}
